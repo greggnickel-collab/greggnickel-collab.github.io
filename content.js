@@ -17,7 +17,7 @@ window.SITE = {
   name: "Gregg Nickel",
   title: "Business Applications Analyst · Salesforce & Microsoft Power Platform",
   summary: "I administer, automate, and improve the business applications that sales, finance, HR, legal, and operations teams rely on every day.",
-  photo: "",               // e.g. "images/headshot.jpg" (put the file in the images folder). Leave "" to show initials.
+  photo: "images/headshot.jpg",   // square photo in the images folder. Leave "" to show initials.
 
   // ---------- Contact ----------
   // The first three items that have a url also appear as buttons at the top of the page.
@@ -25,8 +25,8 @@ window.SITE = {
   contact: [
     { label: "Email me",  icon: "email",    url: "mailto:gregg.nickel@gmail.com" },
     { label: "LinkedIn",  icon: "linkedin", url: "https://www.linkedin.com/in/gregg-nickel" },
+    { label: "Résumé",    icon: "resume",   url: "files/Gregg_Nickel_Professional_Resume.pdf" },
     { label: "GitHub",    icon: "github",   url: "https://github.com/greggnickel-collab" },
-    { label: "Résumé",    icon: "resume",   url: "" },   // hidden while url is "". e.g. "files/resume.pdf"
     { label: "Tulsa, OK", icon: "location" },            // no url = shown as plain text
   ],
   contactBlurb: "I'm always happy to talk about business applications, process automation, or new opportunities.",

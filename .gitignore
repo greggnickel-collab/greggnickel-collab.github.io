@@ -5,3 +5,6 @@ Thumbs.db
 # Private source documents (never publish)
 *.docx
 *.doc
+
+# Full-size original photo (web version is images/headshot.jpg)
+images/Gregg-0004.jpg
